@@ -71,11 +71,11 @@ def fibo5(n):
 	#Fibo linear algebra
 	if n <= 2:
 		return (1,1)
-	fn1 = fibo5(n-1)
+	fn1 = fibo5(n-1) 
 	return (1*fn1[1] + 0*fn1[0], 1*fn1[0] + 1*fn1[1])
 
 def fibo6(n):
-	#Fibo Magic Formula
+	#Fibo Magic Formula!
 	return 1/sqrt(5)*((1+sqrt(5))/2)**n - 1/sqrt(5)*((1-sqrt(5))/2)**n	
 	
 #fibo_plot(fibo6, 105)
