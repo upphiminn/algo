@@ -139,12 +139,13 @@ def quicksort(lst):
 def heap_sort(lst):
 	pass
 if __name__ == "__main__":
+    test_list = randomlist(10)
 
-	print bubble(randomlist(10))
-	print insertion(randomlist(10))
-	print selection(randomlist(10))
-	print bucket(randomlist(10))
-	print radix(randomlist(10))
-	print merge_sort(randomlist(10))
-	print quicksort(randomlist(10))
-	print heapsort(randomlist(10))
+    print bubble(test_list)
+    print insertion(test_list)
+    print selection(test_list)
+    print bucket(test_list)
+    print radix(test_list)
+    print merge_sort(test_list)
+    print quicksort(test_list)
+   # print heapsort(test_list)
